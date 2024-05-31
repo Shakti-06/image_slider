@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>img slider</title>
+    <style>
+        body{
+            background: grey;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            height: 800px;
+            width: 950px;
+            margin :10px 260px;
+            background: whitesmoke;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            box-shadow: 10px 10px 20px rgb(22, 19, 19);
+            animation: ani 10s linear infinite;
+        }
+        @keyframes ani{
+            0%{
+                background-image:url(https://imgs.search.brave.com/_3D2lswJz7xpzALt4Xv4iilEDHQzaw5tkILDAB11zAk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0LzU0Lzk0LzU2/LzM2MF9GXzQ1NDk0/NTYyMV9GbXk3d3Ru/UjhjQ2M5OXVpN0pp/Wjd0amdFU0RBSXMz/ci5qcGc) ;
+            }
+            25%{
+                background-image: url(https://1.bp.blogspot.com/-4AhtysiqNb4/UdFpEgcI8UI/AAAAAAAAMcg/-42l-nNXVBs/s1600/tom_and_jerry.jpg);
+            }
+            50%{
+                background-image: url(https://wallpapercave.com/wp/wp6372553.jpg);
+            }
+            75%{
+                background-image: url(https://pngimg.com/uploads/mickey_mouse/mickey_mouse_PNG64.png);
+            }
+            100%{
+                background-image: url(https://i.pinimg.com/736x/31/a3/ba/31a3baf5640867f66dd628c315a80098.jpg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> </div>
+</body>
+</html>
